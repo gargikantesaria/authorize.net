@@ -1,0 +1,8 @@
+{
+  "name": "ionic_authorize.net_demo",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
