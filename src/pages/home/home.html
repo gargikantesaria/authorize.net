@@ -1,14 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Payment
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button class="AcceptUI payButton" id="AcceptUI" data-billingAddressOptions='{"show":false, "required":false}'
+  [attr.data-apiLoginID]="apiLoginID" [attr.data-clientKey]="clientKey" data-acceptUIFormHeaderTxt="Card Information"
+  data-acceptUIFormBtnTxt="Add Card and Pay" data-responseHandler="responseHandler"> Pay ${{ amount }}
+</button>
 </ion-content>
